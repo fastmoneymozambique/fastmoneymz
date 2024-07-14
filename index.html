@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAST MONEY MZ</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="logo" src="https://i.ibb.co/0fDBG5X/logo.png" alt="Logo">
+      <h1>FAST MONEY MZ</h1>
+    </header>
+    <main>
+      <div class="saldo">
+        <p>Saldo: <span id="saldoValue">0MZN</span></p>
+      </div>
+      <form id="investForm">
+        <label for="investAmount">Montante para Investir MINIMO. (150MZN) MAXIMO. (60.000MZN):</label>
+        <input type="number" id="investAmount" name="investAmount" placeholder="Digite o valor" min="150">
+        <button type="button" id="depositButton" class="button hidden">Depósito</button>
+      </form>
+      <button id="withdrawButton" class="button">Saque</button>
+      <div class="buttons">
+        <a href="https://aviatorbot2024.github.io/Planos/" class="button small" target="_blank">Ver Planos de Investimentos</a>
+        <button id="inviteButton" class="button small">Convidar Usuários GANHE 10MZN</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
